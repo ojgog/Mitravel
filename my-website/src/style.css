@@ -1,0 +1,19 @@
+@import 'normalize.css';
+
+body {
+  background-color: black;
+}
+.burger-button-menu {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.header-text {
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
