@@ -11,8 +11,10 @@
     <title>Mitravel</title>
   </head>
   <body>
+   <div class="wrapper">
     <header class="header">
-      <ul>
+      <div class="header-container">
+      <ul class="header-media">
         <li><a href="">
           <svg class="header-icon" width="19" height="19">
             <use href="./src/images/symbol-defs.svg#icon-facebook"></use>
@@ -28,15 +30,24 @@
       </li>
       </ul>
       <p class="header-text">Mitravel</p>
-      <button width="48" height="10" class="burger-button-menu">
-        <svg width="48" height="44">
-          <use href="./src/images/symbol-defs.svg#icon-burger"></use>
-        </svg>
+      <button class="burger-button-menu" width="5px" id="burgerButton">
+        <span></span>
+        <span></span>
       </button>
-      
-      
-      
+    
+      <nav class="overlay-menu" id="overlayMenu">
+        <ul class="overlay-menu-list">
+          <li><a href="#">New book</a></li>
+          <li><a href="#">Lessons</a></li>
+          <li><a href="#">Featured</a></li>
+          <li><a href="#">Videos</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Inspirations</a></li>
+        </ul>
+      </nav>
     </header>
+  </div>
+   </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
